@@ -32,7 +32,7 @@ banner2 = """
 print banner
 print banner2
 
-def ms_decrypt():
+def mh_decrypt():
    try:
        sc = raw_input(ask + W + "Script " + G + "> " + W)
        f = open(sc,'r')
@@ -57,7 +57,7 @@ def ms_decrypt():
    except IOError:
        print (eror + " File Not Found!")
 
-def ms_eccrypt():
+def mh_eccrypt():
    try:
        script = raw_input(ask + W + "Script " + G + "> " + W)
        output = raw_input(ask + W + "Output " + G + "> " + W)
@@ -72,8 +72,8 @@ def ms_eccrypt():
 takok = raw_input(W + "Choose" + G + " > ")
 
 if takok == "1" or takok == "01":
-   ms_eccrypt()
-elif takok == "2" or takok == "02":
-   ms_decrypt()
+   mh_eccrypt()
+eliftakok == "2" or takok == "02":
+   mh_decrypt()
 else:
    print (eror + " Wrong input")

@@ -73,7 +73,7 @@ takok = raw_input(W + "Choose" + G + " > ")
 
 if takok == "1" or takok == "01":
    mh_eccrypt()
-eliftakok == "2" or takok == "02":
+eliftakok == "2" or takok == "02"
    mh_decrypt()
 else:
    print (eror + " Wrong input")
